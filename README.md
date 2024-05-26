@@ -1,5 +1,5 @@
 # 从“堆盒子”到动态规划
-
+[课程互动视频展示](https://www.bilibili.com/video/BV1ojKvehEuq)
 ## 运行说明
 ### 环境配置
 
