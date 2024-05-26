@@ -1,5 +1,51 @@
 # 从“堆盒子”到动态规划
 
+## 运行说明
+### 环境配置
+
+1. **安装依赖项**：
+   - 进入项目的根目录，确保你在该目录下能看到 `requirements.txt` 文件。
+   - 执行以下命令来安装所有依赖项：
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - 安装 `pycairo` 库所需的 `.whl` 文件，执行以下命令：
+     ```bash
+     pip install pycairo-1.18.0-cp37-cp37m-win_amd64.whl
+     ```
+
+2. **配置视频保存路径**：
+   - 确保 `media_dir.txt` 文件中包含生成视频的保存路径。如果没有，可以手动创建并添加路径，例如：
+     ```
+     media/videos/
+     ```
+   - 确保路径是相对项目根目录的正确路径。
+
+### 运行程序
+
+1. **动态规划可视化**：
+   - 在项目根目录下，运行 `main.py` 文件，该文件包含了实现动态规划可视化的相关代码：
+     ```bash
+     python main.py
+     ```
+
+2. **生成视频**：
+   - 运行 `dp.py` 文件以生成可视化视频，生成的视频将保存在 `media/videos` 文件夹下：
+     ```bash
+     python dp.py
+     ```
+
+### 项目结构说明
+
+- `main.py`：项目的主代码文件，包含了实现动态规划可视化的逻辑。
+- `media/`：生成的视频文件将保存在 `media/videos` 文件夹中。
+- `manimlib/`：包含了 Manim 库的源代码。
+- `big_ol_pile_of_manim_imports.py`、`manim.py`、`start.py`：Manim 库的源代码文件。
+- `media_dir.txt`：文件中保存了生成视频的保存路径。
+- `pycairo-1.18.0-cp37-cp37m-win_amd64.whl`：Manim 库所需的依赖项。
+- `requirements.txt`：包含了配置 Manim 库所需的文件。
+
+
 ## 目录
 
 - [简介](#简介)
